@@ -2,7 +2,7 @@
 
 Ce document présente comment intégrer des données de l'API du gouvernement dans une base de données SQL Server Windows.
 
-Prérequis :
+## Prérequis :
 
 - Environnement Windows
 - Installer la base de données SQL Server
@@ -11,7 +11,7 @@ Prérequis :
 - Installer Python3 sur le PC local
 
 
-Présentation des fichiers:
+## Présentation des fichiers:
 
 - Information.bak : Backup de ma base de données
 - Integrations.py : Fait la connexion à la base de données et transmet les requêtes SQL
@@ -21,7 +21,7 @@ Présentation des fichiers:
 - Integration.bat : Interface simplifié pour l'utilisateur du choix de l'intégration et de l'authentification à la base de donnée
 
 
-Procédure d'utilisation :
+## Procédure d'utilisation :
 
 1) Récupérer le code source et laisser les fichiers dans le même dossier
 2) Lancer le fichier "Integration.bat" (Double click dessus)
