@@ -18,7 +18,7 @@ Ce document présente comment intégrer des données de l'API du gouvernement da
 - Create_table.sql : Créer la table SQL pour la gestion des LOG
 - Vue.sql : Créer la vue qui affiche uniquement les villes du Nord Pas de Calais
 - Trigger.sql : Créer un trigger qui se déclenche à l'intégration des codes INSEE-
-- Integration.bat : Interface simplifié pour l'utilisateur du choix de l'intégration et de l'authentification à la base de donnée
+- Integration.bat : Interface simplifiée pour l'utilisateur du choix de l'intégration et de l'authentification à la base de donnée
 
 
 ## Procédure d'utilisation :
