@@ -6,7 +6,7 @@ Ce document présente comment intégrer des données de l'API du gouvernement da
 
 - Environnement Windows
 - Installer la base de données SQL Server
-- Avoir une base de données créé avec une table code_insee avec trois colonne code_commune_INSEE (nvarchar(50), NULL) , Nom_de_la_commune(nvarchar(50), non NULL) ,  Code_postal(int, non NULL)  (TP1)
+- Avoir une base de données créé avec une table "code_insee" avec trois colonnes : code_commune_INSEE(nvarchar(50), NULL) , Nom_de_la_commune(nvarchar(50), non NULL) ,  Code_postal(int, non NULL)  (TP1)
 - Avoir un utilisateur capable de se connecter, créer, mettre à jours dans la base de données créé précedement
 - Installer Python3 sur la machine qui va exécuter le programme
 
