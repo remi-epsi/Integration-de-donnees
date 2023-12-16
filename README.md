@@ -1,14 +1,14 @@
 # Integration-de-donnees
 
-Ce document présente comment intégrer des données de l'API du gouvernement dans une base de données SQL Server Windows.
+Ce document présente comment intégrer des données de l'API du gouvernement dans une base de données Microsoft SQL Server.
 
 ## Prérequis :
 
-- Environnement Windows
-- Installer la base de données SQL Server
+- Travailler dans un environnement Windows
+- Installer la base de données Microsoft SQL Server : https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads
 - Avoir une base de données créé avec une table "code_insee" avec trois colonnes : code_commune_INSEE(nvarchar(50), NULL) , Nom_de_la_commune(nvarchar(50), non NULL) ,  Code_postal(int, non NULL)  (TP1)
-- Avoir un utilisateur capable de se connecter, créer, mettre à jours dans la base de données créé précedement
-- Installer Python3 sur la machine qui va exécuter le programme
+- Avoir un utilisateur capable de se connecter, créer une table et une vue, insérer, mettre à jours, modifier et sélectionner dans la base de données.
+- Installer Python3 sur la machine qui va exécuter le programme : https://www.python.org/downloads/windows/
 
 
 ## Présentation des fichiers:
